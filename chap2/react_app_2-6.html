@@ -13,13 +13,13 @@
     <script type="text/babel">
       let dom = document.querySelector('#root');
 
-      let title = "タイトル";
-      let message = "新しいメッセージです。。";
+      let message = "新しいメッセージです。";
+      let link = "http://google.com";
 
       let el = (
         <div>
-          <h2>{title}</h2>
           <p>{message}</p>
+          <p><a href={link}>this is link!</a></p>
         </div>
       );
 
